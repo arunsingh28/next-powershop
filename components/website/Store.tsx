@@ -4,7 +4,7 @@ import storeImage from '../../public/store.png'
 
 const Store = () => {
     return (
-        <div className='font-inter flex flex-col justify-between items-center py-40 sm:flex-row-reverse md:flex-row-reverse'>
+        <div className='font-inter flex flex-col justify-between items-center py-10 lg:py-40 sm:flex-row-reverse md:flex-row-reverse'>
             <div className='font-inter text-black mx-2 px-2'>
                 <p className="font-[900] hero-heading font-inter">
                     Enjoy the benefit of<br />

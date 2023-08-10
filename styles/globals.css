@@ -119,6 +119,26 @@ img {
     padding-right: calc(310 * 0.7vw / (var(--reference-width) / 100));
     padding-left: calc(25 * 1vw / (var(--reference-width) / 100));
     outline: none;
+
+    padding-bottom: -webkit-calc(30 * 1vw / (var(--reference-width) / 100));
+    padding-bottom: -moz-calc(30 * 1vw / (var(--reference-width) / 100));
+    padding-bottom: -o-calc(30 * 1vw / (var(--reference-width) / 100));
+    padding-bottom: -ms-calc(30 * 1vw / (var(--reference-width) / 100));
+
+    padding-top: -webkit-calc(30 * 1vw / (var(--reference-width) / 100));
+    padding-top: -moz-calc(30 * 1vw / (var(--reference-width) / 100));
+    padding-top: -o-calc(30 * 1vw / (var(--reference-width) / 100));
+    padding-top: -ms-calc(30 * 1vw / (var(--reference-width) / 100));
+
+    padding-right: -webkit-calc(310 * 0.7vw / (var(--reference-width) / 100));
+    padding-right: -moz-calc(310 * 0.7vw / (var(--reference-width) / 100));
+    padding-right: -o-calc(310 * 0.7vw / (var(--reference-width) / 100));
+    padding-right: -ms-calc(310 * 0.7vw / (var(--reference-width) / 100));
+
+    padding-left: -webkit-calc(25 * 1vw / (var(--reference-width) / 100));
+    padding-left: -moz-calc(25 * 1vw / (var(--reference-width) / 100));
+    padding-left: -o-calc(25 * 1vw / (var(--reference-width) / 100));
+    padding-left: -ms-calc(25 * 1vw / (var(--reference-width) / 100));
 }
 .input-btn-inside {
     padding-bottom: calc(25 * 1vw / (var(--reference-width) / 100));
@@ -232,6 +252,11 @@ img {
         padding-right: calc(310s * 0.4vw / (var(--reference-width) / 100));
         padding-left: calc(23 * 0.4vw / (var(--reference-width) / 100));
         outline: none;
+
+        padding-bottom: -webkit-calc(40 * 0.4vw / (var(--reference-width) / 100));
+        padding-top: -webkit-calc(40 * 0.4vw / (var(--reference-width) / 100));
+        padding-right: -webkit-calc(310 * 0.4vw / (var(--reference-width) / 100));
+        padding-left: -webkit-calc(23 * 0.4vw / (var(--reference-width) / 100));
     }
     .input-btn-inside {
         padding-bottom: calc(30 * 0.4vw / (var(--reference-width) / 100));

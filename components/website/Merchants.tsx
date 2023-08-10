@@ -36,7 +36,7 @@ const Merchants = () => {
 
 
     return (
-        <div className='py-40 font-inter'>
+        <div className='py-10 lg:py-40 font-inter'>
             <p className='text-center merchant-heading font-[900] mb-10'>Trusted by 1000+ Merchants</p>
             <div className='flex flex-col justify-center flex-wrap items-center overflow-hidden gap-5 md:justify-between lg:flex-row lg:justify-between'>
                 {

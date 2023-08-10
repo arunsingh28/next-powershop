@@ -5,7 +5,7 @@ import brandImage from '../../public/brand.png'
 
 const Brand = () => {
     return (
-        <div className='font-inter flex flex-col justify-between items-start py-40 sm:flex-row md:flex-row lg:items-center'>
+        <div className='font-inter flex flex-col justify-between items-start py-10 lg:py-40 sm:flex-row md:flex-row lg:items-center'>
             <div className='font-inter text-black mx-2 px-2'>
                 <p className="font-[900] hero-heading font-inter">
                     Build, activate &<br />

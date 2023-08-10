@@ -6,7 +6,7 @@ import InputWithButton from './InputWithButton'
 
 const Header = () => {
     return (
-        <div className='flex flex-col justify-between items-start py-5 px-2  lg:flex-row sm:items-center lg:py-10'>
+        <div className='flex flex-col justify-between items-start py-5 px-2 lg:flex-row sm:items-center lg:py-10'>
             <div className='font-inter text-[#E4BBE3] py-20 px-2 w-full lg:w-auto'>
                 <p className="font-[900] hero-heading font-inter">
                     Sell more products<br />
