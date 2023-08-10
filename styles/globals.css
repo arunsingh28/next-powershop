@@ -119,33 +119,13 @@ img {
     padding-right: calc(310 * 0.7vw / (var(--reference-width) / 100));
     padding-left: calc(25 * 1vw / (var(--reference-width) / 100));
     outline: none;
-
-    padding-bottom: -webkit-calc(30 * 1vw / (var(--reference-width) / 100));
-    padding-bottom: -moz-calc(30 * 1vw / (var(--reference-width) / 100));
-    padding-bottom: -o-calc(30 * 1vw / (var(--reference-width) / 100));
-    padding-bottom: -ms-calc(30 * 1vw / (var(--reference-width) / 100));
-
-    padding-top: -webkit-calc(30 * 1vw / (var(--reference-width) / 100));
-    padding-top: -moz-calc(30 * 1vw / (var(--reference-width) / 100));
-    padding-top: -o-calc(30 * 1vw / (var(--reference-width) / 100));
-    padding-top: -ms-calc(30 * 1vw / (var(--reference-width) / 100));
-
-    padding-right: -webkit-calc(310 * 0.7vw / (var(--reference-width) / 100));
-    padding-right: -moz-calc(310 * 0.7vw / (var(--reference-width) / 100));
-    padding-right: -o-calc(310 * 0.7vw / (var(--reference-width) / 100));
-    padding-right: -ms-calc(310 * 0.7vw / (var(--reference-width) / 100));
-
-    padding-left: -webkit-calc(25 * 1vw / (var(--reference-width) / 100));
-    padding-left: -moz-calc(25 * 1vw / (var(--reference-width) / 100));
-    padding-left: -o-calc(25 * 1vw / (var(--reference-width) / 100));
-    padding-left: -ms-calc(25 * 1vw / (var(--reference-width) / 100));
 }
 .input-btn-inside {
     padding-bottom: calc(25 * 1vw / (var(--reference-width) / 100));
     padding-top: calc(25 * 1vw / (var(--reference-width) / 100));
     padding-right: calc(23 * 1vw / (var(--reference-width) / 100));
     padding-left: calc(23 * 1vw / (var(--reference-width) / 100));
-    top: calc(5 * 1vw / (var(--reference-width) / 100)) !important;
+    top: calc(5 * 1vw / (var(--reference-width) / 100));
     font-weight: 900;
 }
 .overlay-w {
@@ -162,10 +142,10 @@ img {
         --reference-height: 926;
     }
     .claim-btn {
-        padding-bottom: calc(25 * 0.4vw / (var(--reference-width) / 100));
-        padding-top: calc(25 * 0.4vw / (var(--reference-width) / 100));
-        padding-right: calc(35 * 0.4vw / (var(--reference-width) / 100));
-        padding-left: calc(35 * 0.4vw / (var(--reference-width) / 100));
+        padding-bottom: calc(25 * 0.6vw / (var(--reference-width) / 100));
+        padding-top: calc(25 * 0.6vw / (var(--reference-width) / 100));
+        padding-right: calc(35 * 0.6vw / (var(--reference-width) / 100));
+        padding-left: calc(35 * 0.6vw / (var(--reference-width) / 100));
     }
     .hero-heading {
         font-size: calc(86 * 0.4vw / (var(--reference-width) / 100));
@@ -179,17 +159,17 @@ img {
         font-size: calc(20 * 0.6vw / (var(--reference-width) / 100));
     }
     .nav-btn-login {
-        font-size: calc(20 * 0.6vw / (var(--reference-width) / 100));
-        width: calc(100 * 0.6vw / (var(--reference-width) / 100));
-        height: calc(70 * 0.6vw / (var(--reference-width) / 100));
+        font-size: calc(20 * 0.5vw / (var(--reference-width) / 100));
+        width: calc(100 * 0.5vw / (var(--reference-width) / 100));
+        height: calc(70 * 0.5vw / (var(--reference-width) / 100));
         display: flex;
         align-items: center;
         justify-content: center;
     }
     .nav-btn {
-        font-size: calc(20 * 0.6vw / (var(--reference-width) / 100));
+        font-size: calc(20 * 0.5vw / (var(--reference-width) / 100));
         width: calc(200 * 0.6vw / (var(--reference-width) / 100));
-        height: calc(70 * 0.6vw / (var(--reference-width) / 100));
+        height: calc(70 * 0.5vw / (var(--reference-width) / 100));
         display: flex;
         align-items: center;
         justify-content: center;
@@ -212,15 +192,15 @@ img {
         padding: 0 calc(144 * 0vw / (var(--reference-width) / 100));
     }
     .social-img-hw {
-        height: calc(105 * 0.4vw / (var(--reference-width) / 100));
-        width: calc(105 * 0.4vw / (var(--reference-width) / 100));
+        height: calc(105 * 0.5vw / (var(--reference-width) / 100));
+        width: calc(105 * 0.5vw / (var(--reference-width) / 100));
     }
     .footer-btn {
         padding-left: calc(50 * 0.4vw / (var(--reference-width) / 100));
         padding-right: calc(50 * 0.4vw / (var(--reference-width) / 100));
-        padding-top: calc(20 * 0.4vw / (var(--reference-width) / 100));
-        padding-bottom: calc(20 * 0.4vw / (var(--reference-width) / 100));
-        font-size: calc(26 * 0.6vw / (var(--reference-width) / 100));
+        padding-top: calc(20 * 0.5vw / (var(--reference-width) / 100));
+        padding-bottom: calc(20 * 0.5vw / (var(--reference-width) / 100));
+        font-size: calc(26 * 0.5vw / (var(--reference-width) / 100));
     }
     .payment-heading {
         font-size: calc(86 * 0.4vw / (var(--reference-width) / 100));
@@ -247,16 +227,11 @@ img {
         line-height: calc(28 * 0.4vw / (var(--reference-width) / 100));
     }
     .input-p {
-        padding-bottom: calc(40 * 0.4vw / (var(--reference-width) / 100));
-        padding-top: calc(40 * 0.4vw / (var(--reference-width) / 100));
+        padding-bottom: calc(43 * 0.4vw / (var(--reference-width) / 100));
+        padding-top: calc(43 * 0.4vw / (var(--reference-width) / 100));
         padding-right: calc(310s * 0.4vw / (var(--reference-width) / 100));
         padding-left: calc(23 * 0.4vw / (var(--reference-width) / 100));
         outline: none;
-
-        padding-bottom: -webkit-calc(40 * 0.4vw / (var(--reference-width) / 100));
-        padding-top: -webkit-calc(40 * 0.4vw / (var(--reference-width) / 100));
-        padding-right: -webkit-calc(310 * 0.4vw / (var(--reference-width) / 100));
-        padding-left: -webkit-calc(23 * 0.4vw / (var(--reference-width) / 100));
     }
     .input-btn-inside {
         padding-bottom: calc(30 * 0.4vw / (var(--reference-width) / 100));

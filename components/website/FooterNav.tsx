@@ -12,7 +12,7 @@ const FooterNav = () => {
                             <path id="Icon_ionic-md-link-2" data-name="Icon ionic-md-link" d="M3.055,8.031A4.979,4.979,0,0,1,8.031,3.055h6.31V0H8.031a8.031,8.031,0,0,0,0,16.062h6.31V13.008H8.031A4.979,4.979,0,0,1,3.055,8.031ZM9.178,9.609H22.946V6.454H9.178ZM24.093,0h-6.31V3.055h6.31a4.976,4.976,0,0,1,0,9.953h-6.31v3.055h6.31A8.031,8.031,0,0,0,24.093,0Z" transform="matrix(-0.259, 0.966, -0.966, -0.259, 205.201, 94.137)" fill="#fff" />
                         </g>
                     </svg>
-                    <h1 className='font-bold text-xl'>PowerShop</h1>
+                    <h1 className='font-bold text-md xl:text-lg'>PowerShop</h1>
                 </div>
                 <div className='flex gap-4'>
                     <button className='font-inter footer-btn font-semibold px-7 bg-btnGray py-3 rounded-lg tracking-tighter hidden lg:block hero-input-text'>Login</button>
@@ -36,7 +36,7 @@ const FooterNav = () => {
                     <li>FAQ </li>
                 </ul>
                 {/* social links */}
-                <div className='flex gap-4'>
+                <div className='flex gap-4 items-center'>
                     {/* twitter */}
                     <div className='h-16 w-16 social-img-hw bg-black flex items-center justify-center rounded-full p-4'>
                         <svg xmlns="http://www.w3.org/2000/svg" width="54.151" height="43.98" viewBox="0 0 54.151 43.98">
