@@ -116,7 +116,7 @@ img {
 .input-p {
     padding-bottom: calc(30 * 1vw / (var(--reference-width) / 100));
     padding-top: calc(30 * 1vw / (var(--reference-width) / 100));
-    padding-right: calc(310 * 0.7vw / (var(--reference-width) / 100));
+    padding-right: calc(25 * 0.7vw / (var(--reference-width) / 100));
     padding-left: calc(25 * 1vw / (var(--reference-width) / 100));
     outline: none;
 }
@@ -229,7 +229,7 @@ img {
     .input-p {
         padding-bottom: calc(43 * 0.4vw / (var(--reference-width) / 100));
         padding-top: calc(43 * 0.4vw / (var(--reference-width) / 100));
-        padding-right: calc(310 * 0.4vw / (var(--reference-width) / 100));
+        padding-right: calc(116 * 1vw / (var(--reference-width) / 100));
         padding-left: calc(23 * 0.4vw / (var(--reference-width) / 100));
         outline: none;
     }
